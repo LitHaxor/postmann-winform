@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace Postmann
 {
-    public partial class LoginForm : Form
+    public partial class Form1 : Form
     {
-        public LoginForm()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
         {
 
         }

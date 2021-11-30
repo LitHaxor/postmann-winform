@@ -18,3 +18,4 @@ C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.csproj.
 C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.csproj.CoreCompileInputs.cache
 C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.exe
 C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.pdb
+C:\Users\offic\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.Regestration.resources

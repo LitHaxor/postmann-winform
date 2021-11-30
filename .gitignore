@@ -13,7 +13,8 @@ TestResults
 *.user
 *.sln.docstates
 /.vs
-
+/bin
+/obj
 # Build results
 [Dd]ebug/
 [Rr]elease/

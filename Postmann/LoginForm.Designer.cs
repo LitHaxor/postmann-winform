@@ -51,7 +51,7 @@ namespace Postmann
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(402, 527);
+            this.panel1.Size = new System.Drawing.Size(494, 527);
             this.panel1.TabIndex = 0;
             this.panel1.UseWaitCursor = true;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
@@ -105,7 +105,7 @@ namespace Postmann
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(395, 0);
+            this.panel2.Location = new System.Drawing.Point(493, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(416, 527);
             this.panel2.TabIndex = 1;
@@ -172,7 +172,7 @@ namespace Postmann
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(811, 527);
+            this.ClientSize = new System.Drawing.Size(909, 527);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.MaximumSize = new System.Drawing.Size(1200, 800);

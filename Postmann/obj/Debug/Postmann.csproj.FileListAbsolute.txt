@@ -1,0 +1,10 @@
+C:\Users\offic\Source\Repos\postmann-winform\Postmann\bin\Debug\Postmann.exe.config
+C:\Users\offic\Source\Repos\postmann-winform\Postmann\bin\Debug\Postmann.exe
+C:\Users\offic\Source\Repos\postmann-winform\Postmann\bin\Debug\Postmann.pdb
+C:\Users\offic\Source\Repos\postmann-winform\Postmann\obj\Debug\Postmann.csproj.AssemblyReference.cache
+C:\Users\offic\Source\Repos\postmann-winform\Postmann\obj\Debug\Postmann.Properties.Resources.resources
+C:\Users\offic\Source\Repos\postmann-winform\Postmann\obj\Debug\Postmann.csproj.GenerateResource.cache
+C:\Users\offic\Source\Repos\postmann-winform\Postmann\obj\Debug\Postmann.csproj.CoreCompileInputs.cache
+C:\Users\offic\Source\Repos\postmann-winform\Postmann\obj\Debug\Postmann.exe
+C:\Users\offic\Source\Repos\postmann-winform\Postmann\obj\Debug\Postmann.pdb
+C:\Users\offic\Source\Repos\postmann-winform\Postmann\obj\Debug\Postmann.LoginForm.resources

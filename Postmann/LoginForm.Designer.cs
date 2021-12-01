@@ -166,6 +166,7 @@ namespace Postmann
             this.label5.Size = new System.Drawing.Size(321, 36);
             this.label5.TabIndex = 2;
             this.label5.Text = "Create Delivery with Ease";
+            this.label5.UseWaitCursor = true;
             // 
             // LoginForm
             // 
@@ -176,6 +177,7 @@ namespace Postmann
             this.ClientSize = new System.Drawing.Size(884, 561);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel2);
+            this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.MaximumSize = new System.Drawing.Size(1200, 800);
             this.MinimumSize = new System.Drawing.Size(900, 600);
             this.Name = "LoginForm";

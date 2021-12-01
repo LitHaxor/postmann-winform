@@ -22,6 +22,10 @@ C:\Users\offic\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.Regestr
 C:\Users\offic\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.MarchentDashboard.resources
 C:\Users\offic\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.StatusAdminDashboard.resources
 C:\Users\offic\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.BalanceAdminDashboard.resources
+<<<<<<< HEAD
+C:\Users\offic\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.addParcelMarchent.resources
+C:\Users\offic\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.SettingsMarchentDashboard.resources
+=======
 C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.MarchentDashboard.resources
 C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.BalanceAdminDashboard.resources
 C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.SettingsMarchentDashboard.resources
@@ -30,3 +34,7 @@ C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.StatusA
 C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.Checkbalance.resources
 C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.Form1.resources
 C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.withdraw.resources
+>>>>>>> b1e253884cbe8cdcce5685dac21fa104db043980
+C:\Users\offic\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.Checkbalance.resources
+C:\Users\offic\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.AllWithdrawlMarchent.resources
+C:\Users\offic\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.withdraw.resources

@@ -58,6 +58,12 @@
     <Compile Include="MarchentDashboard.Designer.cs">
       <DependentUpon>MarchentDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="marchent\addParcelMarchent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marchent\addParcelMarchent.Designer.cs">
+      <DependentUpon>addParcelMarchent.cs</DependentUpon>
+    </Compile>
     <Compile Include="marchent\BalanceAdminDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,11 +76,11 @@
     <Compile Include="marchent\Checkbalance.Designer.cs">
       <DependentUpon>Checkbalance.cs</DependentUpon>
     </Compile>
-    <Compile Include="marchent\Form1.cs">
+    <Compile Include="marchent\AllWithdrawlMarchent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="marchent\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="marchent\AllWithdrawlMarchent.Designer.cs">
+      <DependentUpon>AllWithdrawlMarchent.cs</DependentUpon>
     </Compile>
     <Compile Include="marchent\withdraw.cs">
       <SubType>Form</SubType>
@@ -108,14 +114,17 @@
     <EmbeddedResource Include="MarchentDashboard.resx">
       <DependentUpon>MarchentDashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="marchent\addParcelMarchent.resx">
+      <DependentUpon>addParcelMarchent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="marchent\BalanceAdminDashboard.resx">
       <DependentUpon>BalanceAdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="marchent\Checkbalance.resx">
       <DependentUpon>Checkbalance.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="marchent\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="marchent\AllWithdrawlMarchent.resx">
+      <DependentUpon>AllWithdrawlMarchent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="marchent\withdraw.resx">
       <DependentUpon>withdraw.cs</DependentUpon>
@@ -150,6 +159,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+    <Folder Include="Views\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

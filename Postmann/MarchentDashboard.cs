@@ -84,17 +84,32 @@ namespace Postmann
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            openChildForm(new addParcelMarchent());
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-
+            openChildForm(new Checkbalance());
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            openChildForm(new StatusAdminDashboard());
+        }
 
+        private void button12_Click(object sender, EventArgs e)
+        {
+            openChildForm(new withdraw());
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            openChildForm(new AllWithdrawlMarchent());
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            openChildForm(new LoginForm());
         }
     }
 }

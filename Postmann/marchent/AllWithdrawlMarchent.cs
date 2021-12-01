@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Postmann.marchent
 {
-    public partial class Form1 : Form
+    public partial class AllWithdrawlMarchent : Form
     {
-        public Form1()
+        public AllWithdrawlMarchent()
         {
             InitializeComponent();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

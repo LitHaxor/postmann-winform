@@ -19,4 +19,5 @@ C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.csproj.
 C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.exe
 C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.pdb
 C:\Users\offic\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.Regestration.resources
-C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.Regestration.resources
+C:\Users\offic\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.MarchentDashboard.resources
+C:\Users\offic\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.StatusAdminDashboard.resources

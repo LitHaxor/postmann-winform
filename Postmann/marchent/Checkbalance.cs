@@ -10,14 +10,24 @@ using System.Windows.Forms;
 
 namespace Postmann.marchent
 {
-    public partial class SettingsMarchentDashboard : Form
+    public partial class Checkbalance : Form
     {
-        public SettingsMarchentDashboard()
+        public Checkbalance()
         {
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void Checkbalance_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }

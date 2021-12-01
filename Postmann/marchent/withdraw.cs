@@ -10,14 +10,24 @@ using System.Windows.Forms;
 
 namespace Postmann.marchent
 {
-    public partial class SettingsMarchentDashboard : Form
+    public partial class withdraw : Form
     {
-        public SettingsMarchentDashboard()
+        public withdraw()
         {
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void withdraw_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

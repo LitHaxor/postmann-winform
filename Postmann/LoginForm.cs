@@ -29,7 +29,9 @@ namespace Postmann
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Regestration r2 = new Regestration();
+            r2.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)

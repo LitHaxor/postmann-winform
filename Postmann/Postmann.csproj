@@ -70,6 +70,24 @@
     <Compile Include="marchent\BalanceAdminDashboard.Designer.cs">
       <DependentUpon>BalanceAdminDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="marchent\Checkbalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marchent\Checkbalance.Designer.cs">
+      <DependentUpon>Checkbalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="marchent\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marchent\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="marchent\withdraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marchent\withdraw.Designer.cs">
+      <DependentUpon>withdraw.cs</DependentUpon>
+    </Compile>
     <Compile Include="marchent\SettingsMarchentDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +119,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="marchent\BalanceAdminDashboard.resx">
       <DependentUpon>BalanceAdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marchent\Checkbalance.resx">
+      <DependentUpon>Checkbalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marchent\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marchent\withdraw.resx">
+      <DependentUpon>withdraw.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="marchent\SettingsMarchentDashboard.resx">
       <DependentUpon>SettingsMarchentDashboard.cs</DependentUpon>

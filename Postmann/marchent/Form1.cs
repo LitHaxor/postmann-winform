@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Postmann.marchent
 {
-    public partial class SettingsMarchentDashboard : Form
+    public partial class Form1 : Form
     {
-        public SettingsMarchentDashboard()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

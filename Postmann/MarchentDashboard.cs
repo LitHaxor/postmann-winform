@@ -86,5 +86,15 @@ namespace Postmann
         {
 
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

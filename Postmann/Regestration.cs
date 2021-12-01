@@ -91,7 +91,7 @@ namespace Postmann
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            bool status =  checkBox1.Checked;
+            bool status = checkBox1.Checked;
             switch (status)
             {
                 case true:
@@ -111,6 +111,13 @@ namespace Postmann
         private void textBox2_TextChanged_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginForm f2 = new LoginForm();
+            f2.Show();
         }
     }
 }

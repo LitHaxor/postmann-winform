@@ -21,5 +21,10 @@ namespace Postmann.Views.marchent
         {
 
         }
+
+        private void All_Parcel_Marchent_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -46,90 +46,90 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LoginForm.cs">
+    <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.cs">
+    <Compile Include="Views\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MarchentDashboard.cs">
+    <Compile Include="Views\MarchentDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MarchentDashboard.Designer.cs">
+    <Compile Include="Views\MarchentDashboard.Designer.cs">
       <DependentUpon>MarchentDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="marchent\addParcelMarchent.cs">
+    <Compile Include="Views\marchent\addParcelMarchent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="marchent\addParcelMarchent.Designer.cs">
+    <Compile Include="Views\marchent\addParcelMarchent.Designer.cs">
       <DependentUpon>addParcelMarchent.cs</DependentUpon>
     </Compile>
-    <Compile Include="marchent\BalanceAdminDashboard.cs">
+    <Compile Include="Views\marchent\BalanceAdminDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="marchent\BalanceAdminDashboard.Designer.cs">
+    <Compile Include="Views\marchent\BalanceAdminDashboard.Designer.cs">
       <DependentUpon>BalanceAdminDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="marchent\Checkbalance.cs">
+    <Compile Include="Views\marchent\Checkbalance.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="marchent\Checkbalance.Designer.cs">
+    <Compile Include="Views\marchent\Checkbalance.Designer.cs">
       <DependentUpon>Checkbalance.cs</DependentUpon>
     </Compile>
-    <Compile Include="marchent\AllWithdrawlMarchent.cs">
+    <Compile Include="Views\marchent\AllWithdrawlMarchent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="marchent\AllWithdrawlMarchent.Designer.cs">
+    <Compile Include="Views\marchent\AllWithdrawlMarchent.Designer.cs">
       <DependentUpon>AllWithdrawlMarchent.cs</DependentUpon>
     </Compile>
-    <Compile Include="marchent\withdraw.cs">
+    <Compile Include="Views\marchent\withdraw.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="marchent\withdraw.Designer.cs">
+    <Compile Include="Views\marchent\withdraw.Designer.cs">
       <DependentUpon>withdraw.cs</DependentUpon>
     </Compile>
-    <Compile Include="marchent\SettingsMarchentDashboard.cs">
+    <Compile Include="Views\marchent\SettingsMarchentDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="marchent\SettingsMarchentDashboard.Designer.cs">
+    <Compile Include="Views\marchent\SettingsMarchentDashboard.Designer.cs">
       <DependentUpon>SettingsMarchentDashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Regestration.cs">
+    <Compile Include="Views\Regestration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Regestration.Designer.cs">
+    <Compile Include="Views\Regestration.Designer.cs">
       <DependentUpon>Regestration.cs</DependentUpon>
     </Compile>
-    <Compile Include="marchent\StatusAdminDashboard.cs">
+    <Compile Include="Views\marchent\StatusAdminDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="marchent\StatusAdminDashboard.Designer.cs">
+    <Compile Include="Views\marchent\StatusAdminDashboard.Designer.cs">
       <DependentUpon>StatusAdminDashboard.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="LoginForm.resx">
+    <EmbeddedResource Include="Views\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MarchentDashboard.resx">
+    <EmbeddedResource Include="Views\MarchentDashboard.resx">
       <DependentUpon>MarchentDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="marchent\addParcelMarchent.resx">
+    <EmbeddedResource Include="Views\marchent\addParcelMarchent.resx">
       <DependentUpon>addParcelMarchent.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="marchent\BalanceAdminDashboard.resx">
+    <EmbeddedResource Include="Views\marchent\BalanceAdminDashboard.resx">
       <DependentUpon>BalanceAdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="marchent\Checkbalance.resx">
+    <EmbeddedResource Include="Views\marchent\Checkbalance.resx">
       <DependentUpon>Checkbalance.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="marchent\AllWithdrawlMarchent.resx">
+    <EmbeddedResource Include="Views\marchent\AllWithdrawlMarchent.resx">
       <DependentUpon>AllWithdrawlMarchent.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="marchent\withdraw.resx">
+    <EmbeddedResource Include="Views\marchent\withdraw.resx">
       <DependentUpon>withdraw.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="marchent\SettingsMarchentDashboard.resx">
+    <EmbeddedResource Include="Views\marchent\SettingsMarchentDashboard.resx">
       <DependentUpon>SettingsMarchentDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -141,10 +141,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Regestration.resx">
+    <EmbeddedResource Include="Views\Regestration.resx">
       <DependentUpon>Regestration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="marchent\StatusAdminDashboard.resx">
+    <EmbeddedResource Include="Views\marchent\StatusAdminDashboard.resx">
       <DependentUpon>StatusAdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -163,7 +163,6 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

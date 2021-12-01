@@ -76,6 +76,12 @@
     <Compile Include="Views\marchent\BalanceAdminDashboard.Designer.cs">
       <DependentUpon>BalanceAdminDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\marchent\Cancelled_Parcel_Marchant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\marchent\Cancelled_Parcel_Marchant.Designer.cs">
+      <DependentUpon>Cancelled_Parcel_Marchant.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\marchent\Checkbalance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\marchent\BalanceAdminDashboard.resx">
       <DependentUpon>BalanceAdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\marchent\Cancelled_Parcel_Marchant.resx">
+      <DependentUpon>Cancelled_Parcel_Marchant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\marchent\Checkbalance.resx">
       <DependentUpon>Checkbalance.cs</DependentUpon>

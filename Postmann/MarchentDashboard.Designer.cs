@@ -47,8 +47,8 @@ namespace Postmann
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.dashboardPanelButton = new System.Windows.Forms.Button();
-            this.marchentPanelContainer = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.marchentPanelContainer = new System.Windows.Forms.Panel();
             this.MarchentSidenav.SuspendLayout();
             this.accountSubmenu.SuspendLayout();
             this.parcelSubMenu.SuspendLayout();
@@ -215,6 +215,7 @@ namespace Postmann
             this.button7.TabIndex = 0;
             this.button7.Text = "Add parcel";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // parcelPanelButton
             // 
@@ -268,6 +269,7 @@ namespace Postmann
             this.button3.TabIndex = 1;
             this.button3.Text = "Balance";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -298,6 +300,14 @@ namespace Postmann
             this.dashboardPanelButton.UseVisualStyleBackColor = false;
             this.dashboardPanelButton.Click += new System.EventHandler(this.dashboardPanelButton_Click);
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(183, 63);
+            this.flowLayoutPanel1.TabIndex = 0;
+            // 
             // marchentPanelContainer
             // 
             this.marchentPanelContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -306,14 +316,7 @@ namespace Postmann
             this.marchentPanelContainer.Name = "marchentPanelContainer";
             this.marchentPanelContainer.Size = new System.Drawing.Size(684, 561);
             this.marchentPanelContainer.TabIndex = 2;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(183, 63);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.marchentPanelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.marchentPanelContainer_Paint);
             // 
             // MarchentDashboard
             // 

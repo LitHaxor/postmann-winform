@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Postmann.marchent;
 
 namespace Postmann
 {
@@ -71,6 +72,19 @@ namespace Postmann
             openSubMenu(accountSubmenu);
         }
 
-       
+        private void button3_Click(object sender, EventArgs e)
+        {
+            openChildForm(new BalanceAdminDashboard());
+        }
+
+        private void marchentPanelContainer_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -31,5 +31,10 @@ namespace Postmann.Views.marchent
         {
             //Me.DataGridView1.Rows.Add(textBox1.Text, textBox2.Text)
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

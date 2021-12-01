@@ -114,6 +114,9 @@
     <EmbeddedResource Include="marchent\Checkbalance.resx">
       <DependentUpon>Checkbalance.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="marchent\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="marchent\withdraw.resx">
       <DependentUpon>withdraw.cs</DependentUpon>
     </EmbeddedResource>

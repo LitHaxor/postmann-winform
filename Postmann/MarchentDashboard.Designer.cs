@@ -68,7 +68,7 @@ namespace Postmann
             this.MarchentSidenav.Controls.Add(this.flowLayoutPanel1);
             this.MarchentSidenav.Dock = System.Windows.Forms.DockStyle.Left;
             this.MarchentSidenav.Location = new System.Drawing.Point(0, 0);
-            this.MarchentSidenav.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MarchentSidenav.Margin = new System.Windows.Forms.Padding(4);
             this.MarchentSidenav.Name = "MarchentSidenav";
             this.MarchentSidenav.Size = new System.Drawing.Size(267, 690);
             this.MarchentSidenav.TabIndex = 0;
@@ -81,7 +81,7 @@ namespace Postmann
             this.accountSubmenu.Controls.Add(this.button13);
             this.accountSubmenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.accountSubmenu.Location = new System.Drawing.Point(0, 569);
-            this.accountSubmenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.accountSubmenu.Margin = new System.Windows.Forms.Padding(4);
             this.accountSubmenu.Name = "accountSubmenu";
             this.accountSubmenu.Size = new System.Drawing.Size(246, 202);
             this.accountSubmenu.TabIndex = 6;
@@ -93,7 +93,7 @@ namespace Postmann
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.ForeColor = System.Drawing.SystemColors.Control;
             this.button10.Location = new System.Drawing.Point(0, 138);
-            this.button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button10.Margin = new System.Windows.Forms.Padding(4);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(246, 50);
             this.button10.TabIndex = 3;
@@ -107,11 +107,11 @@ namespace Postmann
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.ForeColor = System.Drawing.SystemColors.Control;
             this.button11.Location = new System.Drawing.Point(0, 92);
-            this.button11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button11.Margin = new System.Windows.Forms.Padding(4);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(246, 46);
             this.button11.TabIndex = 2;
-            this.button11.Text = "all withdrawls";
+            this.button11.Text = "All withdrawls";
             this.button11.UseVisualStyleBackColor = true;
             // 
             // button12
@@ -121,7 +121,7 @@ namespace Postmann
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.ForeColor = System.Drawing.SystemColors.Control;
             this.button12.Location = new System.Drawing.Point(0, 46);
-            this.button12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button12.Margin = new System.Windows.Forms.Padding(4);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(246, 46);
             this.button12.TabIndex = 1;
@@ -135,7 +135,7 @@ namespace Postmann
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.ForeColor = System.Drawing.SystemColors.Control;
             this.button13.Location = new System.Drawing.Point(0, 0);
-            this.button13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button13.Margin = new System.Windows.Forms.Padding(4);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(246, 46);
             this.button13.TabIndex = 0;
@@ -152,7 +152,7 @@ namespace Postmann
             this.accountPanelButtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.accountPanelButtn.ForeColor = System.Drawing.SystemColors.Control;
             this.accountPanelButtn.Location = new System.Drawing.Point(0, 514);
-            this.accountPanelButtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.accountPanelButtn.Margin = new System.Windows.Forms.Padding(4);
             this.accountPanelButtn.Name = "accountPanelButtn";
             this.accountPanelButtn.Size = new System.Drawing.Size(246, 55);
             this.accountPanelButtn.TabIndex = 5;
@@ -168,7 +168,7 @@ namespace Postmann
             this.parcelSubMenu.Controls.Add(this.button7);
             this.parcelSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.parcelSubMenu.Location = new System.Drawing.Point(0, 327);
-            this.parcelSubMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.parcelSubMenu.Margin = new System.Windows.Forms.Padding(4);
             this.parcelSubMenu.Name = "parcelSubMenu";
             this.parcelSubMenu.Size = new System.Drawing.Size(246, 187);
             this.parcelSubMenu.TabIndex = 4;
@@ -180,7 +180,7 @@ namespace Postmann
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.ForeColor = System.Drawing.SystemColors.Control;
             this.button8.Location = new System.Drawing.Point(0, 138);
-            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button8.Margin = new System.Windows.Forms.Padding(4);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(246, 43);
             this.button8.TabIndex = 3;
@@ -194,7 +194,7 @@ namespace Postmann
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.SystemColors.Control;
             this.button5.Location = new System.Drawing.Point(0, 92);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(246, 46);
             this.button5.TabIndex = 2;
@@ -208,7 +208,7 @@ namespace Postmann
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.ForeColor = System.Drawing.SystemColors.Control;
             this.button6.Location = new System.Drawing.Point(0, 46);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(246, 46);
             this.button6.TabIndex = 1;
@@ -222,7 +222,7 @@ namespace Postmann
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.ForeColor = System.Drawing.SystemColors.Control;
             this.button7.Location = new System.Drawing.Point(0, 0);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button7.Margin = new System.Windows.Forms.Padding(4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(246, 46);
             this.button7.TabIndex = 0;
@@ -239,7 +239,7 @@ namespace Postmann
             this.parcelPanelButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.parcelPanelButton.ForeColor = System.Drawing.SystemColors.Control;
             this.parcelPanelButton.Location = new System.Drawing.Point(0, 272);
-            this.parcelPanelButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.parcelPanelButton.Margin = new System.Windows.Forms.Padding(4);
             this.parcelPanelButton.Name = "parcelPanelButton";
             this.parcelPanelButton.Size = new System.Drawing.Size(246, 55);
             this.parcelPanelButton.TabIndex = 3;
@@ -254,7 +254,7 @@ namespace Postmann
             this.dashboardSubMenu.Controls.Add(this.button2);
             this.dashboardSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.dashboardSubMenu.Location = new System.Drawing.Point(0, 133);
-            this.dashboardSubMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dashboardSubMenu.Margin = new System.Windows.Forms.Padding(4);
             this.dashboardSubMenu.Name = "dashboardSubMenu";
             this.dashboardSubMenu.Size = new System.Drawing.Size(246, 139);
             this.dashboardSubMenu.TabIndex = 2;
@@ -266,7 +266,7 @@ namespace Postmann
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.SystemColors.Control;
             this.button4.Location = new System.Drawing.Point(0, 92);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(246, 41);
             this.button4.TabIndex = 2;
@@ -280,7 +280,7 @@ namespace Postmann
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.SystemColors.Control;
             this.button3.Location = new System.Drawing.Point(0, 46);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(246, 46);
             this.button3.TabIndex = 1;
@@ -295,7 +295,7 @@ namespace Postmann
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.SystemColors.Control;
             this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(246, 46);
             this.button2.TabIndex = 0;
@@ -312,7 +312,7 @@ namespace Postmann
             this.dashboardPanelButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dashboardPanelButton.ForeColor = System.Drawing.SystemColors.Control;
             this.dashboardPanelButton.Location = new System.Drawing.Point(0, 78);
-            this.dashboardPanelButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dashboardPanelButton.Margin = new System.Windows.Forms.Padding(4);
             this.dashboardPanelButton.Name = "dashboardPanelButton";
             this.dashboardPanelButton.Size = new System.Drawing.Size(246, 55);
             this.dashboardPanelButton.TabIndex = 1;
@@ -324,7 +324,7 @@ namespace Postmann
             // 
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(246, 78);
             this.flowLayoutPanel1.TabIndex = 0;
@@ -334,7 +334,7 @@ namespace Postmann
             this.marchentPanelContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.marchentPanelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.marchentPanelContainer.Location = new System.Drawing.Point(267, 0);
-            this.marchentPanelContainer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.marchentPanelContainer.Margin = new System.Windows.Forms.Padding(4);
             this.marchentPanelContainer.Name = "marchentPanelContainer";
             this.marchentPanelContainer.Size = new System.Drawing.Size(912, 690);
             this.marchentPanelContainer.TabIndex = 2;
@@ -348,7 +348,7 @@ namespace Postmann
             this.ClientSize = new System.Drawing.Size(1179, 690);
             this.Controls.Add(this.marchentPanelContainer);
             this.Controls.Add(this.MarchentSidenav);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(1594, 974);
             this.MinimumSize = new System.Drawing.Size(1194, 728);
             this.Name = "MarchentDashboard";

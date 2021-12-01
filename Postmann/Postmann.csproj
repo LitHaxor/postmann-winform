@@ -58,6 +58,12 @@
     <Compile Include="MarchentDashboard.Designer.cs">
       <DependentUpon>MarchentDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="marchent\addParcelMarchent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marchent\addParcelMarchent.Designer.cs">
+      <DependentUpon>addParcelMarchent.cs</DependentUpon>
+    </Compile>
     <Compile Include="marchent\BalanceAdminDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MarchentDashboard.resx">
       <DependentUpon>MarchentDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marchent\addParcelMarchent.resx">
+      <DependentUpon>addParcelMarchent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="marchent\BalanceAdminDashboard.resx">
       <DependentUpon>BalanceAdminDashboard.cs</DependentUpon>

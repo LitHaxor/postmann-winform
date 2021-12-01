@@ -91,7 +91,7 @@ namespace Postmann
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            bool status = checkBox2.Checked;
+            bool status = checkBox1.Checked;
             switch (status)
             {
                 case true:

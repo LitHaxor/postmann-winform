@@ -27,3 +27,6 @@ C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchen
 C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.SettingsMarchentDashboard.resources
 C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.Regestration.resources
 C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.StatusAdminDashboard.resources
+C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.Checkbalance.resources
+C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.Form1.resources
+C:\Users\salma\source\repos\postmann-winform\Postmann\obj\Debug\Postmann.marchent.withdraw.resources

@@ -32,6 +32,13 @@ namespace Postmann
 
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MarchentDashboard md = new MarchentDashboard();
+            this.Hide();
+            md.Show();
+        }
+
+       
     }
 }

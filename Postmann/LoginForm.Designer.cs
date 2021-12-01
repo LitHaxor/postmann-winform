@@ -53,7 +53,6 @@ namespace Postmann
             this.label1.Size = new System.Drawing.Size(226, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "Login to your Account";
-            this.label1.UseWaitCursor = true;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -66,7 +65,6 @@ namespace Postmann
             this.label2.Size = new System.Drawing.Size(48, 21);
             this.label2.TabIndex = 1;
             this.label2.Text = "Email";
-            this.label2.UseWaitCursor = true;
             // 
             // label3
             // 
@@ -78,7 +76,6 @@ namespace Postmann
             this.label3.Size = new System.Drawing.Size(76, 21);
             this.label3.TabIndex = 2;
             this.label3.Text = "Password";
-            this.label3.UseWaitCursor = true;
             // 
             // panel2
             // 
@@ -96,7 +93,6 @@ namespace Postmann
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(481, 561);
             this.panel2.TabIndex = 1;
-            this.panel2.UseWaitCursor = true;
             // 
             // button2
             // 
@@ -109,7 +105,6 @@ namespace Postmann
             this.button2.TabIndex = 7;
             this.button2.Text = "Create account";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.UseWaitCursor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // checkBox1
@@ -122,7 +117,6 @@ namespace Postmann
             this.checkBox1.TabIndex = 6;
             this.checkBox1.Text = "show password";
             this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.UseWaitCursor = true;
             // 
             // button1
             // 
@@ -135,7 +129,7 @@ namespace Postmann
             this.button1.TabIndex = 5;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.UseWaitCursor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
             // 
@@ -144,7 +138,6 @@ namespace Postmann
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(310, 29);
             this.textBox2.TabIndex = 4;
-            this.textBox2.UseWaitCursor = true;
             // 
             // textBox1
             // 
@@ -153,7 +146,6 @@ namespace Postmann
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(310, 29);
             this.textBox1.TabIndex = 3;
-            this.textBox1.UseWaitCursor = true;
             // 
             // label5
             // 
@@ -166,7 +158,6 @@ namespace Postmann
             this.label5.Size = new System.Drawing.Size(321, 36);
             this.label5.TabIndex = 2;
             this.label5.Text = "Create Delivery with Ease";
-            this.label5.UseWaitCursor = true;
             // 
             // LoginForm
             // 
@@ -177,12 +168,10 @@ namespace Postmann
             this.ClientSize = new System.Drawing.Size(884, 561);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel2);
-            this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.MaximumSize = new System.Drawing.Size(1200, 800);
             this.MinimumSize = new System.Drawing.Size(900, 600);
             this.Name = "LoginForm";
             this.Text = "Login Postman";
-            this.UseWaitCursor = true;
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);

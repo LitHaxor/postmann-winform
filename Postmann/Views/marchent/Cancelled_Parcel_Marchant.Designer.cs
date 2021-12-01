@@ -61,7 +61,7 @@ namespace Postmann.Views.marchent
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(16, 18);
+            this.label1.Location = new System.Drawing.Point(35, 19);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(147, 41);
@@ -77,7 +77,7 @@ namespace Postmann.Views.marchent
             this.Column1,
             this.Column2,
             this.Column3});
-            this.dataGridView1.Location = new System.Drawing.Point(42, 298);
+            this.dataGridView1.Location = new System.Drawing.Point(206, 288);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
@@ -137,7 +137,7 @@ namespace Postmann.Views.marchent
             this.textBox2.Location = new System.Drawing.Point(219, 161);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(380, 34);
+            this.textBox2.Size = new System.Drawing.Size(416, 34);
             this.textBox2.TabIndex = 17;
             this.textBox2.UseWaitCursor = true;
             // 
@@ -147,7 +147,7 @@ namespace Postmann.Views.marchent
             this.textBox1.Location = new System.Drawing.Point(219, 99);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(380, 34);
+            this.textBox1.Size = new System.Drawing.Size(416, 34);
             this.textBox1.TabIndex = 18;
             this.textBox1.UseWaitCursor = true;
             // 
@@ -168,7 +168,7 @@ namespace Postmann.Views.marchent
             this.textBox3.Location = new System.Drawing.Point(219, 223);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(380, 34);
+            this.textBox3.Size = new System.Drawing.Size(416, 34);
             this.textBox3.TabIndex = 22;
             this.textBox3.UseWaitCursor = true;
             // 

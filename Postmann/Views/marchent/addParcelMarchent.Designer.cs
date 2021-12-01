@@ -230,6 +230,7 @@ namespace Postmann.marchent
             this.MinimumSize = new System.Drawing.Size(906, 680);
             this.Name = "addParcelMarchent";
             this.Text = "addParcelMarchent";
+            this.Load += new System.EventHandler(this.addParcelMarchent_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

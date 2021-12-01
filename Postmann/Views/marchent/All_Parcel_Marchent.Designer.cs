@@ -50,11 +50,11 @@ namespace Postmann.Views.marchent
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-            this.dataGridView1.Location = new System.Drawing.Point(31, 247);
+            this.dataGridView1.Location = new System.Drawing.Point(218, 231);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(301, 325);
+            this.dataGridView1.Size = new System.Drawing.Size(380, 325);
             this.dataGridView1.TabIndex = 0;
             // 
             // button1
@@ -84,7 +84,7 @@ namespace Postmann.Views.marchent
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(43)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.panel1.Controls.Add(this.label4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -100,9 +100,9 @@ namespace Postmann.Views.marchent
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label4.Location = new System.Drawing.Point(15, 22);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(147, 41);
+            this.label4.Size = new System.Drawing.Size(137, 41);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Cancelled";
+            this.label4.Text = "All Parcel";
             // 
             // label3
             // 

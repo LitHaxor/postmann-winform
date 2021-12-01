@@ -96,6 +96,12 @@
     <Compile Include="Views\marchent\AllWithdrawlMarchent.Designer.cs">
       <DependentUpon>AllWithdrawlMarchent.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\marchent\Delivered_Parcel_Marchant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\marchent\Delivered_Parcel_Marchant.Designer.cs">
+      <DependentUpon>Delivered_Parcel_Marchant.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\marchent\withdraw.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,6 +151,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\marchent\AllWithdrawlMarchent.resx">
       <DependentUpon>AllWithdrawlMarchent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\marchent\Delivered_Parcel_Marchant.resx">
+      <DependentUpon>Delivered_Parcel_Marchant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\marchent\withdraw.resx">
       <DependentUpon>withdraw.cs</DependentUpon>

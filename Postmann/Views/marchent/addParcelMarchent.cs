@@ -26,5 +26,10 @@ namespace Postmann.marchent
         {
 
         }
+
+        private void addParcelMarchent_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

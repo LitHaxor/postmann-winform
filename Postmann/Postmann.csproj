@@ -78,6 +78,7 @@
     <Compile Include="Views\marchent\BalanceAdminDashboard.Designer.cs">
       <DependentUpon>BalanceAdminDashboard.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Views\marchent\Cancelled_Parcel_Marchant.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,17 +91,33 @@
     <Compile Include="Views\marchent\Checkbalance.Designer.cs">
       <DependentUpon>Checkbalance.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> master
     <Compile Include="Views\marchent\AllWithdrawlMarchent.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\marchent\AllWithdrawlMarchent.Designer.cs">
       <DependentUpon>AllWithdrawlMarchent.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Views\marchent\Delivered_Parcel_Marchant.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\marchent\Delivered_Parcel_Marchant.Designer.cs">
       <DependentUpon>Delivered_Parcel_Marchant.cs</DependentUpon>
+=======
+    <Compile Include="Views\marchent\Check balance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\marchent\Check balance.Designer.cs">
+      <DependentUpon>Check balance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\marchent\Allwithdrawls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\marchent\Allwithdrawls.Designer.cs">
+      <DependentUpon>Allwithdrawls.cs</DependentUpon>
+>>>>>>> master
     </Compile>
     <Compile Include="Views\marchent\withdraw.cs">
       <SubType>Form</SubType>
@@ -143,6 +160,7 @@
     <EmbeddedResource Include="Views\marchent\BalanceAdminDashboard.resx">
       <DependentUpon>BalanceAdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Views\marchent\Cancelled_Parcel_Marchant.resx">
       <DependentUpon>Cancelled_Parcel_Marchant.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,6 +172,16 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\marchent\Delivered_Parcel_Marchant.resx">
       <DependentUpon>Delivered_Parcel_Marchant.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Views\marchent\AllWithdrawlMarchent.resx">
+      <DependentUpon>AllWithdrawlMarchent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\marchent\Check balance.resx">
+      <DependentUpon>Check balance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\marchent\Allwithdrawls.resx">
+      <DependentUpon>Allwithdrawls.cs</DependentUpon>
+>>>>>>> master
     </EmbeddedResource>
     <EmbeddedResource Include="Views\marchent\withdraw.resx">
       <DependentUpon>withdraw.cs</DependentUpon>
